@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header contents */
+
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9F9F8;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.header {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 36px;
+    align-items: center;
+}
+
+.header-links div {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 96px 0;
+}
+
+
+#awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#awesome-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 72px;
+    gap: 12px;
+    flex: 0 1 350px; /* doesn't grow outward, but shrinks. maintains a size of 350px */
+    color: #E5E7EB;
+}
+
+#awesome-photo {
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+}
+
+/* for the text */
+#awesome-photo div {
+    text-align: center;
+    padding: 80px;
+} 
+
+#awesome-box button { /* for the 'Sign Up' button */
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 24px;
+    border: white;
+    border-radius: 8px; /* makes the button borders rounded */
+    font-weight: 600;
+
+    /* to give the button some interactive feel */
+    transition-duration: 0.5s;
+}
+
+#awesome-box button:hover {
+    background-color: #1D4ED8; /* darker blue on hover */
+    cursor: pointer; /* changes cursor to pointer on hover */
+}
+
+
+
+/* Random information content */
+
+.random-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0;
+}
+
+#random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#random-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
