@@ -176,3 +176,33 @@ body {
 #quote, #thor {
     color: #1F2937;
 }
+
+
+/* Action contents */
+
+#action-section {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    margin: 96px 190px;
+    border-radius: 8px;
+}
+
+
+#action-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #E5E7EB;
+    padding: 48px 0;
+}
+
+#call {
+    font-size: 24px;
+}
+
+#sign-up {
+    font-size: 12px;
+}
