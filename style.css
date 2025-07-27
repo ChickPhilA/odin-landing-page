@@ -99,7 +99,7 @@ body {
 
 
 
-/* Random information content */
+/* Random information contents */
 
 .random-container {
     display: flex;
@@ -146,4 +146,33 @@ body {
 
 
 
-/*  Quote content */
+/*  Quote contents */
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 190px;
+    flex-shrink: 1;
+}
+
+#quote {
+    font-size: 36px;
+    width: 800px;
+    font-style: italic;
+}
+
+#thor {
+    align-self: flex-end;
+    margin-right: 250px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#quote, #thor {
+    color: #1F2937;
+}
