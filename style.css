@@ -216,6 +216,7 @@ body {
     width: 125px;
     height: 40px;
     border: 2px solid white;
+    transition-duration: 0.5s;
 }
 
 #action-button button:hover {
