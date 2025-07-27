@@ -201,8 +201,24 @@ body {
 
 #call {
     font-size: 24px;
+    font-weight: 800;
 }
 
 #sign-up {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+#action-button button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #F9F9F8;
+    width: 125px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+#action-button button:hover {
+    background-color: #1D4ED8; /* darker blue on hover */
+    cursor: pointer; /* changes cursor to pointer on hover */
 }
