@@ -222,3 +222,16 @@ body {
     background-color: #1D4ED8; /* darker blue on hover */
     cursor: pointer; /* changes cursor to pointer on hover */
 }
+
+
+/* Footer contents */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer-content {
+    margin: 48px;
+    text-align: center;
+    color: #E5E7EB;
+}
